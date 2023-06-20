@@ -1,0 +1,133 @@
+/* Common css Start */
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,a,button,b{
+    font-weight: 800;
+} 
+.container{
+    width:1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+/* Common css End */
+
+/* Nav Section css Start */
+nav{
+    background-color: #02918b ;
+}
+nav .row{
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li a{
+    font-size: 12px;
+    color:#ffffff;
+    text-transform: uppercase;
+    padding: 26px 25.5px;
+    display: inline-block;
+    transition: .4s;
+}
+nav ul li a:hover{
+    background-color: #cfc91d;
+    color: #0b1016;
+}
+/* nav Section css End */
+
+/* Banner Section css Start */
+#banner{
+    height: 778px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.65)), url(./../images/banner_bg.jpg); 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color:#ffffff;
+}
+#banner h3{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 25px;
+}
+#banner h1{
+    font-size: 68px;
+    text-transform: uppercase;
+    line-height: 75px;
+    letter-spacing: 30px;
+}
+#banner p{
+    font-size: 18px;
+    list-style: 30px;
+}
+#banner img{
+    margin:52px;
+}
+#banner a{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #0b1016;
+    background-color: #cfc91d;
+    padding:17px 42px;
+    display:inline-block;
+    letter-spacing: 3px;
+    transition: .4s;
+}
+#banner a:hover{
+    background-color: #75dba5;
+    color:#f305d4;
+} 
+#about{
+    padding: 98px 0;
+}
+#about .section_info{
+    text-align: center;
+    padding: 0 137px;
+    margin-bottom: 80px;
+}
+#about .section_info h2{
+    font-size: 46px;
+    text-transform: uppercase;
+    color: #02918b;
+}
+#about .section_info p{
+    font-size: 16px;
+    line-height: 41px;
+    color:#7e8287;
+}
+#about .section_info p b{
+    font-size: 23px;
+}
+#about .about_item_wrapper .about_item{
+    width: 25%;
+    padding: 36px 65px;
+    text-align: center;
+    color: #7e8287;
+    border-right: 1px solid #d9bdbd;
+}
+#about .about_item_wrapper .about_item:last-child{
+    border-right-color:transparent;
+}
+#about .about_item_wrapper .about_item h3{
+    font-size: 16px;
+    line-height: 23px;
+    padding: 29px 0;
+}
+#about .about_item_wrapper .about_item p{
+    font-size:11px ;
+    line-height: 21px;
+}
